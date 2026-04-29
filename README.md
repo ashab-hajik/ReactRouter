@@ -1,16 +1,46 @@
-# React + Vite
+🚀 React Router Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a responsive web application built using React and React Router, designed to demonstrate smooth client-side navigation and a scalable component-based structure. It features multiple pages and reusable UI components, making it a solid foundation for modern frontend development.
 
-Currently, two official plugins are available:
+✨ Features
+Seamless client-side routing using React Router
+Home and About pages
+Reusable Header and Footer components
+Interactive Login and Download buttons
+Responsive design using Tailwind CSS
+🛠️ Tech Stack
+React.js
+React Router DOM
+Tailwind CSS
+Vite
+📂 Project Structure
+src/
+ ├── components/
+ │    ├── Header.jsx
+ │    └── Footer.jsx
+ ├── pages/
+ │    ├── Home.jsx
+ │    └── About.jsx
+ ├── App.jsx
+ └── main.jsx
+⚙️ Installation & Setup
+# Clone the repository
+git clone <your-repo-link>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Navigate into project
+cd project-name
 
-## React Compiler
+# Install dependencies
+npm install
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Run the development server
+npm run dev
+🎯 Purpose
 
-## Expanding the ESLint configuration
+This project helps in understanding routing in React, building reusable components, and structuring a clean frontend application using Tailwind CSS.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📌 Future Improvements
+Add authentication system
+Backend integration
+Improve UI/UX with animations
+Add more pages and features
